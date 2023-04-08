@@ -1,4 +1,4 @@
-import { angular, express, figma, git, github, linkedin, material_ui, mongodb, nestjs, nextjs, photoshop, postgres, reactjs, react_query, redux, tailwind, trello, typeorm, typescript, visual_studio } from "../assets";
+import { angular, express, figma, git, github, intellisys, linkedin, material_ui, mongodb, nestjs, nextjs, photoshop, postgres, reactjs, react_query, redux, tailwind, trello, typeorm, typescript, visual_studio } from "../assets";
 
 export const navLinks = [
   {
@@ -117,3 +117,55 @@ export const stacks = [
     ]
   }
 ]
+
+export interface Experiance {
+  title: string;
+  company_name: string;
+  icon: string;
+  iconBg: string;
+  date: string;
+  points: string[];
+}
+
+export const experiences: Experiance[] = [
+  {
+    title: "Apprentice Developer",
+    company_name: "Intellisys D. Corp",
+    icon: intellisys,
+    iconBg: "#383E56",
+    date: "Marzo 2020 - Abril 2021",
+    points: [
+      "Dar soporte y entrenamiento sobre las aplicaciones creadas para el Covid-19 en la República Dominicana.",
+      "Desarrollo de la landing page de la empresa.",
+      "Colaborar con developers y product managers.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Intellisys D. Corp",
+    icon: intellisys,
+    iconBg: "#383E56",
+    date: "Abril 2021 - Junio 2022",
+    points: [
+      "Desarrollar la aplicación para generar tu certificado digital en la República dominicana.",
+      "Desarrollar aplicación de formularios relacionadas al Covid-19.",
+      "Colaborar con diferentes Teams para solucionar errores de seguridad y bugs.",
+      "Participar en code review y dar coaching a otros developers.",
+      "Refactorizar aplicaciones para mejorar su escalabilidad y performance."
+    ],
+  },
+  {
+    title: "Mid Level Developer",
+    company_name: "Intellisys D. Corp",
+    icon: intellisys,
+    iconBg: "#383E56",
+    date: "Junio 2022 - Marzo 2023",
+    points: [
+      "Desarrollar diferentes aplicaciones con código de calidad, tales como landing pages, aplicaciones administrativas.",
+      "Trabajar con datos muy importantes como historias clínicas.",
+      "Participar en prueba de concepto con un equipo de Google.",
+      "Participar en code review y dar coaching a otros developers.",
+      "Refactorizar aplicaciones completas en deadline cortos.",
+    ],
+  },
+];

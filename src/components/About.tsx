@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="min-h-screen w-full">
       <motion.div variants={textVariant(0.2)}>
-        <h1 className="font-bold text-[40px]">Sobre mi</h1>
+        <h1 className="font-bold text-[50px]">Sobre mi</h1>
         <p className="font-medium text-white-200 max-w-4xl">
           Soy Desarrollador de Software, más enfocado al desarrollo web con
           conocimientos tanto en Frontend como en Backend, pero más
@@ -18,7 +18,7 @@ const About = () => {
           llaman la atención.
         </p>
       </motion.div>
-      <div className="mt-[40px] flex flex-wrap gap-10 justify-center">
+      <div className="mt-14 flex flex-wrap gap-10 justify-center">
         {
           stacks.map((stack, index) => (
             <Tilt className="xs:w-[350px] w-full" key={stack.name}>

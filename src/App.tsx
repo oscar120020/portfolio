@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import { About, Header, Navbar, StarsCanvas } from "./components"
+import { About, Experience, Header, Navbar, Projects, StarsCanvas } from "./components"
 
 export const App = () => {
 
@@ -12,6 +12,8 @@ export const App = () => {
           <StarsCanvas />
         </div>
         <About />
+        <Experience />
+        <Projects />
       </div>
     </BrowserRouter>
   )

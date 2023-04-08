@@ -5,11 +5,13 @@ export { Navbar } from "./Navbar";
 import About from "./About";
 import StarsCanvas from "./Stars";
 import Experience from "./Experience";
+import Projects from "./Projects";
 
 
 
 export {
     StarsCanvas,
     About,
-    Experience
+    Experience,
+    Projects
 }

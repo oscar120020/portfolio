@@ -3,6 +3,8 @@ import menu from "./menu.svg";
 import logo from "./logo.svg";
 import github from "./github.png";
 import linkedin from "./linkedin2.png";
+import intellisys from './intellisys.png';
+
 // stack
 import angular from "./tech/angular.svg";
 import express from "./tech/express.png";
@@ -25,13 +27,13 @@ import visual_studio from './tech/visual_studio.png';
 import trello from './tech/trello.png';
 
 
-
 export {
     close,
     menu,
     logo,
     github,
     linkedin,
+    intellisys,
 
     // stack
     angular,
