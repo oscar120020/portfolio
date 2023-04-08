@@ -10,7 +10,6 @@ import angular from "./tech/angular.svg";
 import express from "./tech/express.png";
 import react_query from "./tech/react_query.svg";
 import material_ui from "./tech/material-ui.svg";
-
 import figma from './tech/figma.png';
 import git from './tech/git.png';
 import mongodb from './tech/mongodb.png';
@@ -25,6 +24,17 @@ import typeorm from './tech/typeorm.png';
 import typescript from './tech/typescript.png';
 import visual_studio from './tech/visual_studio.png';
 import trello from './tech/trello.png';
+
+// Project pages
+import chat_pc from './pages/chat-pc.png';
+import icc_pc from './pages/icc-pc.png';
+import shop_pc from './pages/shop-pc.png';
+import chat_tablet from './pages/chat-tablet.png';
+import icc_tablet from './pages/icc-tablet.png';
+import shop_tablet from './pages/shop-tablet.png';
+import chat_bg from './pages/chat-bg.png';
+import icc_bg from './pages/icc-bg.png';
+import shop_bg from './pages/shop-bg.png';
 
 
 export {
@@ -54,4 +64,15 @@ export {
     typescript,
     visual_studio,
     trello,
+
+    // projects pages
+    chat_pc,
+    icc_pc,
+    shop_pc,
+    chat_tablet,
+    icc_tablet,
+    shop_tablet,
+    chat_bg,
+    icc_bg,
+    shop_bg,
 }

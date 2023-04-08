@@ -13,8 +13,6 @@ export const Navbar = () => {
 
   useEffect(() => {
     const handleScrollEvent = (event: Event) => {
-      // console.log(event);
-      // console.log(window.scrollY);
       if (window.scrollY === 0) {
         setIsOnTop(true);
       } else {

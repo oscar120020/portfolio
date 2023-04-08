@@ -1,4 +1,34 @@
-import { angular, express, figma, git, github, intellisys, linkedin, material_ui, mongodb, nestjs, nextjs, photoshop, postgres, reactjs, react_query, redux, tailwind, trello, typeorm, typescript, visual_studio } from "../assets";
+import {
+  angular,
+  chat_bg,
+  chat_pc,
+  chat_tablet,
+  express,
+  figma,
+  git,
+  github,
+  icc_bg,
+  icc_pc,
+  icc_tablet,
+  intellisys,
+  linkedin,
+  mongodb,
+  nestjs,
+  nextjs,
+  photoshop,
+  postgres,
+  reactjs,
+  react_query,
+  redux,
+  shop_bg,
+  shop_pc,
+  shop_tablet,
+  tailwind,
+  trello,
+  typeorm,
+  typescript,
+  visual_studio,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -23,14 +53,14 @@ export const socialMedia = [
   {
     url: "https://github.com/oscar120020",
     icon: github,
-    name: "GitHub"
+    name: "GitHub",
   },
   {
     url: "https://www.linkedin.com/in/oscar-mart%C3%ADnez-65a413212/",
     icon: linkedin,
-    name: "LinkedIn"
+    name: "LinkedIn",
   },
-]
+];
 
 export const stacks = [
   {
@@ -60,7 +90,7 @@ export const stacks = [
         name: "Tailwind",
         icon: tailwind,
       },
-    ]
+    ],
   },
   {
     name: "BackEnd Stack",
@@ -89,34 +119,34 @@ export const stacks = [
         name: "TypeScript",
         icon: typescript,
       },
-    ]
+    ],
   },
   {
     name: "Tools",
     list: [
       {
-        name: 'Figma',
-        icon: figma
+        name: "Figma",
+        icon: figma,
       },
       {
-        name: 'git',
-        icon: git
+        name: "git",
+        icon: git,
       },
       {
-        name: 'Phothoshop',
-        icon: photoshop
+        name: "Phothoshop",
+        icon: photoshop,
       },
       {
-        name: 'VS Code',
-        icon: visual_studio
+        name: "VS Code",
+        icon: visual_studio,
       },
       {
-        name: 'Trello',
-        icon: trello
+        name: "Trello",
+        icon: trello,
       },
-    ]
-  }
-]
+    ],
+  },
+];
 
 export interface Experiance {
   title: string;
@@ -151,7 +181,7 @@ export const experiences: Experiance[] = [
       "Desarrollar aplicación de formularios relacionadas al Covid-19.",
       "Colaborar con diferentes Teams para solucionar errores de seguridad y bugs.",
       "Participar en code review y dar coaching a otros developers.",
-      "Refactorizar aplicaciones para mejorar su escalabilidad y performance."
+      "Refactorizar aplicaciones para mejorar su escalabilidad y performance.",
     ],
   },
   {
@@ -167,5 +197,56 @@ export const experiences: Experiance[] = [
       "Participar en code review y dar coaching a otros developers.",
       "Refactorizar aplicaciones completas en deadline cortos.",
     ],
+  },
+];
+
+export interface Project {
+  name: string;
+  images: {tablet: string, pc: string, bg: string};
+  description: string;
+  stack: string[];
+  github_links: string[];
+  demo_link: string;
+}
+
+export const projects: Project[] = [
+  {
+    name: "Intellisys Coding Challenge",
+    images: {
+      tablet: icc_tablet,
+      pc: icc_pc,
+      bg: icc_bg,
+    },
+    description: `Página que contiene la información de un concurso de programación competitiva extraida mediante web scrapping, 
+    el cual tiene una landing page con la información necesaria para participar, los resultados 
+    de cada evento, lista de todos los participantes, calendario para ver y guardar cada evento, 
+    y un area de administración.`,
+    stack: ["NextJS", "NestJS", "PostgresQL", "TypeORM", "React Query", "Material UI", "Typescript"],
+    github_links: [],
+    demo_link: "https://icc.intellisys.com.do/",
+  },
+  {
+    name: "Tienda online",
+    images: {
+      tablet: shop_tablet,
+      pc: shop_pc,
+      bg: shop_bg,
+    },
+    description: "Tienda online con carrito de compras y forma de pago Paypal",
+    stack: ["NextJs", "MongoDB", "SWR", "Cloudinary", "Material UI", "Typescript"],
+    github_links: ["https://github.com/oscar120020/e-shop"],
+    demo_link: "https://clothes-shop-wnov.onrender.com",
+  },
+  {
+    name: "Chat convencional",
+    images: {
+      tablet: chat_tablet,
+      pc: chat_pc,
+      bg: chat_bg
+    },
+    description: "Chat convencional con características como de mandar y recibir solicitudes, crear grupos y busqueda de mensajes",
+    stack: ["Angular 12", "Websocket", "ExpressJS", "Cloudinary", "MongoDB"],
+    github_links: ["https://github.com/oscar120020/Angular-chat", "https://github.com/oscar120020/chat-server"],
+    demo_link: "https://angular-chat-xi.vercel.app/",
   },
 ];

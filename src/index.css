@@ -35,11 +35,11 @@
 
 .violet-gradient {
   background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: linear-gradient(-90deg, #804dee 0%, #7DE2D1 100%);
   background: -webkit-linear-gradient(
     -90deg,
     #804dee 0%,
-    rgba(60, 51, 80, 0) 100%
+    #7DE2D1 100%
   );
 }
 
@@ -112,6 +112,33 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.bg-blur {
+  backdrop-filter: blur(7px);
+}
+
+.project-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-button::after {
+  content: "Ver más";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: #339989;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .7s ease-in-out;
+}
+
+.project-button:hover.project-button::after {
+  transform: translateX(100%);
 }
 
 /* canvas- styles */
