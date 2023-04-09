@@ -13,10 +13,17 @@
   color-scheme: dark;
 }
 
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
   display: block;
+  color: #52928766;
 }
 
 .black-gradient {

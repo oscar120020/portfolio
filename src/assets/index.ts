@@ -4,6 +4,10 @@ import logo from "./logo.svg";
 import github from "./github.png";
 import linkedin from "./linkedin2.png";
 import intellisys from './intellisys.png';
+import rotate from './rotar.png';
+import no_rotate from './no.png';
+import ipad_icon from './ipad-icon.png';
+import laptop_icon from './laptop-icon.png';
 
 // stack
 import angular from "./tech/angular.svg";
@@ -44,6 +48,10 @@ export {
     github,
     linkedin,
     intellisys,
+    rotate,
+    no_rotate,
+    ipad_icon,
+    laptop_icon,
 
     // stack
     angular,

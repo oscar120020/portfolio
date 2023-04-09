@@ -2,6 +2,7 @@ import * as THREE from "three";
 import { Html, useGLTF } from "@react-three/drei";
 import { GLTF } from "three-stdlib";
 import { GroupProps } from "@react-three/fiber";
+import { chat_pc, icc_pc, shop_pc } from "../../assets";
 
 type GLTFResult = GLTF & {
   nodes: {
@@ -23,8 +24,11 @@ type GLTFResult = GLTF & {
   };
 };
 
+interface Props extends GroupProps {
+  image: string;
+}
 
-export const LaptopModel = (props: GroupProps) => {
+export const LaptopModel = ({image, ...props}: Props) => {
   const { nodes, materials } = useGLTF("./Laptop.glb") as GLTFResult;
   return (
     <group
@@ -89,8 +93,9 @@ export const LaptopModel = (props: GroupProps) => {
                 className="laptop-container"
             >   
                 <img
-                  src="./page.png"
-                  alt="page icc"
+                  src={image}
+                  alt="page"
+                  className="min-h-full min-w-full"
                 />
             </Html>
         </mesh>

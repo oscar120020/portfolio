@@ -31,7 +31,7 @@ const About = () => {
                   <div className="flex flex-wrap gap-5 mt-5 w-full justify-center">
                     {
                       stack.list.map(tech => (
-                        <div className="flex flex-col justify-center items-center p-1 xxs:w-[40%] w-full">
+                        <div key={tech.name} className="flex flex-col justify-center items-center p-1 xxs:w-[40%] w-full">
                           <p>{tech.name}</p>
                           <img src={tech.icon} alt={tech.name} className="w-[40px] h-[40px]" />
                         </div>
