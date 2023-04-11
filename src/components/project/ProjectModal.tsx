@@ -1,7 +1,7 @@
 import { OrbitControls, Preload } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { motion } from "framer-motion";
-import { Suspense, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import * as THREE from "three";
 import { close, ipad_icon, laptop_icon, no_rotate, rotate } from "../../assets";
 import { Project } from "../../constants";
@@ -18,6 +18,14 @@ interface Props {
 }
 
 export const ProjectModal = ({ closeModal, project }: Props) => {
+
+  useEffect(() => {
+    document.body.style.overflowY = 'hidden'
+    return () => {
+      document.body.style.overflowY = 'scroll'
+    };
+  }, [])
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
