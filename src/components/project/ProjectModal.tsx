@@ -31,9 +31,9 @@ export const ProjectModal = ({ closeModal, project }: Props) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}
-      className="bg-blur fixed w-screen min-h-screen z-100 left-0 top-0 inset-0 flex justify-center items-center"
+      className="bg-blur fixed w-screen min-h-screen z-100 left-0 top-0 inset-0 flex justify-center items-center overflow-y-scroll"
     >
-      <div className="relative hide-scrollbar rounded-md xs:w-[85%] w-full lg:h-auto h-[85%] max-w-[1100px] mt-[68px] mx-5 bg-secondary lg:overflow-auto overflow-y-scroll flex lg:flex-row flex-col-reverse">
+      <div className="relative hide-scrollbar mb-3 rounded-md xs:w-[85%] w-full lg:h-auto h-[85%] max-w-[1100px] mt-[68px] mx-5 bg-secondary lg:overflow-auto overflow-y-scroll flex lg:flex-row flex-col-reverse">
         <ProjectDetails project={project} />
         <ProjectModels project={project} />
         <img
