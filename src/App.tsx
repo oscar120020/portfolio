@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import {
   About,
   Contact,
@@ -26,6 +27,7 @@ export const App = () => {
           <StarsCanvas />
         </div>
       </div>
+      <ToastContainer />
     </BrowserRouter>
   );
 };
