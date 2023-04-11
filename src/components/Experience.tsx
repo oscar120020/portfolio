@@ -9,7 +9,6 @@ import { Experiance, experiences } from "../constants";
 const ExperienceCard = ({ experience }: {experience: Experiance}) => {
   return (
     <VerticalTimelineElement
-      // className="vertical-timeline-element--work"
       contentStyle={{ background: "#1d2323", color: "#fff" }}
       contentArrowStyle={{ borderRight: "7px solid #232631" }}
       date={experience.date}

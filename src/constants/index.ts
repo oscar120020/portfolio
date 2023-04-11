@@ -6,7 +6,7 @@ import {
   express,
   figma,
   git,
-  github,
+  github2,
   icc_bg,
   icc_pc,
   icc_tablet,
@@ -52,7 +52,7 @@ export const navLinks = [
 export const socialMedia = [
   {
     url: "https://github.com/oscar120020",
-    icon: github,
+    icon: github2,
     name: "GitHub",
   },
   {
@@ -207,6 +207,7 @@ export interface Project {
   stack: string[];
   github_links: string[];
   demo_link: string;
+  nota: string;
 }
 
 export const projects: Project[] = [
@@ -224,6 +225,7 @@ export const projects: Project[] = [
     stack: ["NextJS", "NestJS", "PostgresQL", "TypeORM", "React Query", "Material UI", "Typescript"],
     github_links: [],
     demo_link: "https://icc.intellisys.com.do/",
+    nota: "El link a github no está disponible porque es un repositorio privado."
   },
   {
     name: "Tienda online",
@@ -236,6 +238,9 @@ export const projects: Project[] = [
     stack: ["NextJs", "MongoDB", "SWR", "Cloudinary", "Material UI", "Typescript"],
     github_links: ["https://github.com/oscar120020/e-shop"],
     demo_link: "https://clothes-shop-wnov.onrender.com",
+    nota: `La primara vez que ingreses a la url de la demo va a tardar un poco, 
+    ya que estoy usando render como hosting gratuito y éste suspende la app si no se está usando. 
+    Después del primer reenderizado todo funciona como corresponde.`
   },
   {
     name: "Chat convencional",
@@ -248,5 +253,8 @@ export const projects: Project[] = [
     stack: ["Angular 12", "Websocket", "ExpressJS", "Cloudinary", "MongoDB"],
     github_links: ["https://github.com/oscar120020/Angular-chat", "https://github.com/oscar120020/chat-server"],
     demo_link: "https://angular-chat-xi.vercel.app/",
+    nota: `La primara vez que ingreses a la url de la demo va a tardar un poco en responder, 
+    ya que estoy usando render como hosting gratuito y éste suspende la app si no se está usando. 
+    Después del primer reenderizado todo funciona como corresponde.`
   },
 ];

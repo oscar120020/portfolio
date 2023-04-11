@@ -2,6 +2,7 @@ import { OrbitControls, Preload } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React, { Suspense } from "react";
 import * as THREE from "three";
+import { LoadingModel } from "./LoadingModel";
 import { LaptopModel } from "./models/Laptop";
 
 interface Props {
@@ -22,7 +23,7 @@ export const LaptopComponent = ({image, autoRotate}: Props) => {
         toneMappingExposure: 2.5,
       }}
     >
-      <Suspense fallback={null}>
+      <Suspense fallback={<LoadingModel/>}>
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}

@@ -2,12 +2,13 @@ import close from "./close.svg";
 import menu from "./menu.svg";
 import logo from "./logo.svg";
 import github from "./github.png";
-import linkedin from "./linkedin2.png";
+import github2 from "./github-homo.png";
+import linkedin from "./linkedin-homo.png";
 import intellisys from './intellisys.png';
-import rotate from './rotar.png';
+import rotate from './rotar-white.png';
 import no_rotate from './no.png';
-import ipad_icon from './ipad-icon.png';
-import laptop_icon from './laptop-icon.png';
+import ipad_icon from './ipad-icon-white.png';
+import laptop_icon from './laptop-icon-white.png';
 
 // stack
 import angular from "./tech/angular.svg";
@@ -46,6 +47,7 @@ export {
     menu,
     logo,
     github,
+    github2,
     linkedin,
     intellisys,
     rotate,

@@ -29,7 +29,7 @@ export const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} ${isOnTop ? "bg-transparent" : "bg-secondary"} w-full flex items-center py-4 fixed top-0 z-20 transition-all duration-300`}
+      className={`${styles.paddingX} ${isOnTop ? "bg-transparent" : "bg-[#131515da] backdrop-blur"} w-full flex items-center py-4 fixed top-0 z-20 transition-all duration-300`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link

@@ -21,7 +21,7 @@ export const Header = () => {
                 key={media.url}
                 href={media.url}
                 target="_blank"
-                className="w-[30px] h-[30px]"
+                className="w-[35px] h-[35px] border-[2px] border-tertiary rounded-lg p-[5px]"
               >
                 <img src={media.icon} alt={media.name} />
               </a>

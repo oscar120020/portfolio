@@ -137,11 +137,13 @@
   position: absolute;
   top: 0;
   left: -100%;
-  background-color: #339989;
+  background-color: #7DE2D1;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all .7s ease-in-out;
+  color: black;
+  font-weight: bold;
 }
 
 .project-button:hover.project-button::after {
