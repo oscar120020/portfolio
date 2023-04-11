@@ -24,7 +24,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="w-full min-h-screen">
+    <div className="w-full min-h-screen z-5">
       <motion.div variants={textVariant(0.2)}>
         <h1 className="font-bold text-[50px]">Proyectos</h1>
         <p className="text-white-200 font-medium text-[18px] max-w-4xl">
