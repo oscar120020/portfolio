@@ -2,7 +2,7 @@ import { OrbitControls, Preload } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React, { Suspense } from "react";
 import * as THREE from "three";
-import { LoadingModel } from "./LoadingModel";
+import { LoadingModel } from "./ui/LoadingModel";
 import { LaptopModel } from "./models/Laptop";
 
 interface Props {

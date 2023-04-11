@@ -9,8 +9,6 @@ import {
   StarsCanvas,
 } from "./components";
 
-
-
 export const App = () => {
   return (
     <BrowserRouter>
