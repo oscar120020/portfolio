@@ -122,14 +122,14 @@ const Contact = () => {
               />
             </div>
             <div className="flex flex-col mb-4">
-              <label className="text-[18px]">Nombre:</label>
+              <label className="text-[18px]">Mensaje:</label>
               <textarea
                 rows={7}
                 onChange={handleChange}
                 value={form.message}
                 name="message"
                 className="px-3 py-2 rounded-md outline-none bg-primary mt-2"
-                placeholder="Tu nombre"
+                placeholder="Tu mensaje"
               />
             </div>
             <div className="w-full">
