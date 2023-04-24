@@ -2,7 +2,6 @@ import * as THREE from "three";
 import { Html, useGLTF } from "@react-three/drei";
 import { GLTF } from "three-stdlib";
 import { GroupProps } from "@react-three/fiber";
-import { chat_pc, icc_pc, shop_pc } from "../../assets";
 
 type GLTFResult = GLTF & {
   nodes: {
