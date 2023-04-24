@@ -33,13 +33,13 @@ import trello from './tech/trello.png';
 // Project pages
 import chat_pc from './pages/chat-pc.png';
 import icc_pc from './pages/icc-pc.png';
-import shop_pc from './pages/shop-pc.png';
+import music_pc from './pages/music-pc.png';
 import chat_tablet from './pages/chat-tablet.png';
 import icc_tablet from './pages/icc-tablet.png';
-import shop_tablet from './pages/shop-tablet.png';
+import music_tablet from './pages/music-tablet.jpg';
 import chat_bg from './pages/chat-bg.png';
 import icc_bg from './pages/icc-bg.png';
-import shop_bg from './pages/shop-bg.png';
+import music_bg from './pages/music-bg.png';
 
 
 export {
@@ -78,11 +78,11 @@ export {
     // projects pages
     chat_pc,
     icc_pc,
-    shop_pc,
+    music_pc,
     chat_tablet,
     icc_tablet,
-    shop_tablet,
+    music_tablet,
     chat_bg,
     icc_bg,
-    shop_bg,
+    music_bg,
 }

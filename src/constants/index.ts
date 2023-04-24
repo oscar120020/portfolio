@@ -20,9 +20,9 @@ import {
   reactjs,
   react_query,
   redux,
-  shop_bg,
-  shop_pc,
-  shop_tablet,
+  music_bg,
+  music_pc,
+  music_tablet,
   tailwind,
   trello,
   typeorm,
@@ -228,19 +228,17 @@ export const projects: Project[] = [
     nota: "El link a github no está disponible porque es un repositorio privado."
   },
   {
-    name: "Tienda online",
+    name: "Reproductor de audio",
     images: {
-      tablet: shop_tablet,
-      pc: shop_pc,
-      bg: shop_bg,
+      tablet: music_tablet,
+      pc: music_pc,
+      bg: music_bg,
     },
-    description: "Tienda online con carrito de compras y forma de pago Paypal",
-    stack: ["NextJs", "MongoDB", "SWR", "Cloudinary", "Material UI", "Typescript"],
-    github_links: ["https://github.com/oscar120020/e-shop"],
-    demo_link: "https://clothes-shop-wnov.onrender.com",
-    nota: `La primara vez que ingreses a la url de la demo va a tardar un poco, 
-    ya que estoy usando render como hosting gratuito y éste suspende la app si no se está usando. 
-    Después del primer reenderizado todo funciona como corresponde.`
+    description: "Aplicación móvil para reproducir audio",
+    stack: ["React Native", "Typescript"],
+    github_links: [],
+    demo_link: "https://play.google.com/store/apps/details?id=com.om12002.musicplayer&hl=es_DO&gl=US",
+    nota: "Solo está disponible para Android"
   },
   {
     name: "Chat convencional",

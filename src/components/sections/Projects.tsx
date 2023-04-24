@@ -41,9 +41,9 @@ const Projects = () => {
           <motion.div
             key={`${project.name}-${index}`}
             variants={fadeIn("up", "spring", 0.2 + index / 2, 0.5)}
-            className="shadow-card2 xs:w-[370px] w-full p-[2px] rounded-md"
+            className="shadow-card2 xs:w-[500px] w-full p-[2px] rounded-md"
           >
-            <div className="h-[350px] bg-secondary flex flex-col p-3 rounded-md">
+            <div className="xs:h-[380px] h-[280px] bg-secondary flex flex-col p-3 rounded-md">
               <div className="h-[80%] rounded-md overflow-hidden">
                 <img
                   src={project.images.bg}
