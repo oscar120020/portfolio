@@ -5,6 +5,7 @@ import github from "./github.png";
 import github2 from "./github-homo.png";
 import linkedin from "./linkedin-homo.png";
 import intellisys from './intellisys.png';
+import workmate from './logo-workmate.png';
 import rotate from './rotar-white.png';
 import no_rotate from './no.png';
 import ipad_icon from './ipad-icon-white.png';
@@ -29,6 +30,11 @@ import typeorm from './tech/typeorm.png';
 import typescript from './tech/typescript.png';
 import visual_studio from './tech/visual_studio.png';
 import trello from './tech/trello.png';
+import aws from './tech/aws2.png';
+import pwa from './tech/pwa.png';
+import python from './tech/python.png';
+// import github2 from './tech/github.png';
+import gitlab from './tech/gitlab.png';
 
 // Project pages
 import chat_pc from './pages/chat-pc.png';
@@ -50,6 +56,7 @@ export {
     github2,
     linkedin,
     intellisys,
+    workmate,
     rotate,
     no_rotate,
     ipad_icon,
@@ -74,6 +81,10 @@ export {
     typescript,
     visual_studio,
     trello,
+    aws,
+    pwa,
+    python,
+    gitlab,
 
     // projects pages
     chat_pc,

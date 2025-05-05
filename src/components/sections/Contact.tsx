@@ -8,6 +8,8 @@ import ReactLoading from "react-loading";
 import { toast } from "react-toastify";
 
 mapboxgl.accessToken = import.meta.env.VITE_MATBOX_SECRET;
+console.log(import.meta.env.VITE_MATBOX_SECRET);
+
 
 const Contact = () => {
   const [form, setForm] = useState({

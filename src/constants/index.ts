@@ -11,6 +11,7 @@ import {
   icc_pc,
   icc_tablet,
   intellisys,
+  workmate,
   linkedin,
   mongodb,
   nestjs,
@@ -28,6 +29,11 @@ import {
   typeorm,
   typescript,
   visual_studio,
+  aws,
+  pwa,
+  python,
+  github,
+  gitlab,
 } from "../assets";
 
 export const navLinks = [
@@ -90,6 +96,14 @@ export const stacks = [
         name: "Tailwind",
         icon: tailwind,
       },
+      {
+        name: "PWA",
+        icon: pwa,
+      },
+      {
+        name: "React Native",
+        icon: reactjs,
+      },
     ],
   },
   {
@@ -119,6 +133,10 @@ export const stacks = [
         name: "TypeScript",
         icon: typescript,
       },
+      {
+        name: "Python",
+        icon: python,
+      },
     ],
   },
   {
@@ -143,6 +161,18 @@ export const stacks = [
       {
         name: "Trello",
         icon: trello,
+      },
+      {
+        name: "AWS",
+        icon: aws,
+      },
+      {
+        name: "Github",
+        icon: github,
+      },
+      {
+        name: "Gitlab",
+        icon: gitlab,
       },
     ],
   },
@@ -196,6 +226,21 @@ export const experiences: Experiance[] = [
       "Participar en prueba de concepto con un equipo de Google.",
       "Participar en code review y dar coaching a otros developers.",
       "Refactorizar aplicaciones completas en deadline cortos.",
+    ],
+  },
+  {
+    title: "Senior Fullstack Developer",
+    company_name: "Workmate",
+    icon: workmate,
+    iconBg: "#383E56",
+    date: "Julio 2023 - Actualidad",
+    points: [
+      "Desarrollo de sistema de acreditación con miles de trabajadores con alta concurrencia.",
+      "Reduje tiempos de carga de minutos a segundos.",
+      "Refactorizar sistema ya hecho en un 60% para adaptarlo a requerimientos del cliente.",
+      "Analisis y solución de problemas de arquitectura y lógica.",
+      "Manejo de Lambda en AWS.",
+      "Obtener reportes de base de datos con queries complejas.",
     ],
   },
 ];
